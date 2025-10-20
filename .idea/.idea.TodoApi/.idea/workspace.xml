@@ -9,25 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69424b55-437a-4093-81d8-0bce204e2f56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ApiTestsWithWebApplicationFactory/ApiTestsWithWebApplicationFactory.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/TodoDb.db" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/TodoDb.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/TodoDb.db-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/TodoDb.db-wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApiIntegrationTests/GlobalUsings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApiIntegrationTests/TodoApiIntegrationTests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApiIntegrationTests/TodoControllerTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApiUnitTests/GlobalUsings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApiUnitTests/TodoApiUnitTests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApiUnitTests/TodoControllerTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoClient/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoClient/ServiceGateway.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoClient/TodoClient.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoClient/TodoItem.cs" beforeDir="false" />
-    </list>
+    <list default="true" id="69424b55-437a-4093-81d8-0bce204e2f56" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TodoApi/Controllers/TodoController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TodoApiBasicApiTestsWithWAF/CustomWebApplicationFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TodoApiBasicApiTestsWithWAF/TestsWithTestDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TodoApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,23 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.TodoApi: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.TodoApi: http.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.TodoApi: http">
     <configuration name="TodoClient" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -152,6 +134,7 @@
       <workItem from="1760945301276" duration="2861000" />
       <workItem from="1760950673610" duration="6813000" />
       <workItem from="1760962510304" duration="563000" />
+      <workItem from="1760963907719" duration="898000" />
     </task>
     <servers />
   </component>
