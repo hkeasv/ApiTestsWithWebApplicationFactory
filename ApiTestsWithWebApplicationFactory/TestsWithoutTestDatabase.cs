@@ -1,11 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc.Testing;
+﻿using System.Net;
+using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
+using TodoApi.Data;
 
 namespace ApiTestsWithWebApplicationFactory;
 
 /* This test class uses WebApplicationFactory to create a test server for the TodoApi application and tests its
-   endpoints. No test database is created or initialized. In a real-world scenario, a test database should be 
-   set up and initialized. This is demonstrated with the CustomWebApplicationFactory class in the 
+   endpoints. No test database is created or initialized. In other words, the tests uses the production database
+   which is empty, because it was not seeded. In a real-world scenario, a test database should be set up and
+   initialized. This is demonstrated with the CustomWebApplicationFactory class in the 
    CustomWebApplicationFactory.cs file. */
 
 public class TestsWithoutTestDatabase : IClassFixture<WebApplicationFactory<Program>>
@@ -17,7 +21,7 @@ public class TestsWithoutTestDatabase : IClassFixture<WebApplicationFactory<Prog
     }
 
     [Fact]
-    public async Task Get_EndpointsReturnSuccess()
+    public async Task Get_All_EndpointReturnsSuccess()
     {
         // Arrange
         HttpClient client = _factory.CreateClient();
@@ -27,6 +31,19 @@ public class TestsWithoutTestDatabase : IClassFixture<WebApplicationFactory<Prog
 
         // Assert
         response.EnsureSuccessStatusCode();
+    }
+
+    [Fact]
+    public async Task Get_Item1_EndpointReturnsNotFound()
+    {
+        // Arrange
+        HttpClient client = _factory.CreateClient();
+
+        // Act
+        var response = await client.GetAsync("/todo/1");
+
+        // Assert
+        Assert.Equal(HttpStatusCode.NotFound,response.StatusCode);
     }
     
 }

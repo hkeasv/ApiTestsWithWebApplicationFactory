@@ -34,13 +34,12 @@ public class CustomWebApplicationFactory<TProgram>
                      typeof(DbConnection));
             // Remove the app's database connection registration.
             services.Remove(dbConnectionDescriptor);
-
+            
             // Create open SqliteConnection.
             services.AddSingleton<DbConnection>(container =>
             {
                 var connection = new SqliteConnection("DataSource=:memory:");
                 connection.Open();
-
                 return connection;
             });
 

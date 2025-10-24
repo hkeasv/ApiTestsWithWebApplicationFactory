@@ -9,9 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 // SqLite database:
-builder.Services.AddDbContext<TodoContext>(opt => opt.UseSqlite("Data Source=TodoDb.db"));
-// Register SqLite database initializer for dependency injection.
-builder.Services.AddTransient<IDbInitializer, SqLiteDbInitializer>();
+builder.Services.AddDbContext<TodoContext>(opt => opt.UseSqlite("Data Source=TodoDatabase.db"));
 
 // Register TodoItem repository for dependency injection.
 builder.Services.AddScoped<IRepository<TodoItem>, TodoItemRepository>();
@@ -52,15 +50,6 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-
-    // Initialize the database.
-    using (var scope = app.Services.CreateScope())
-    {
-        var services = scope.ServiceProvider;
-        var dbContext = services.GetService<TodoContext>();
-        var dbInitializer = services.GetService<IDbInitializer>();
-        dbInitializer.Initialize(dbContext);
-    }
 }
 
 app.UseHttpsRedirection();
@@ -68,6 +57,14 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// Ensure the database is created.
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<TodoContext>();
+    context.Database.EnsureCreated();
+}
 
 app.Run();
 
