@@ -35,7 +35,7 @@ public class CustomWebApplicationFactory<TProgram>
             // Remove the app's database connection registration.
             services.Remove(dbConnectionDescriptor);
             
-            // Create open SqliteConnection.
+            // Create open SqliteConnection in memory to be used by the test database context.
             services.AddSingleton<DbConnection>(container =>
             {
                 var connection = new SqliteConnection("DataSource=:memory:");
