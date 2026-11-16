@@ -4,18 +4,16 @@
     <projectFile>ApiTestsWithWebApplicationFactory/ApiTestsWithWebApplicationFactory.csproj</projectFile>
     <projectFile profileName="http">TodoApi/TodoApi.csproj</projectFile>
     <projectFile profileName="https">TodoApi/TodoApi.csproj</projectFile>
-    <projectFile>TodoClient/TodoClient.csproj</projectFile>
-  </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69424b55-437a-4093-81d8-0bce204e2f56" name="Changes" comment="">
+    <list default="true" id="85735420-7108-413f-ad2a-ffd2fb922349" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.ask.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiTestsWithWebApplicationFactory/ApiTestsWithWebApplicationFactory.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTestsWithWebApplicationFactory/ApiTestsWithWebApplicationFactory.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiTestsWithWebApplicationFactory/CustomWebApplicationFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTestsWithWebApplicationFactory/CustomWebApplicationFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/TodoApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/TodoApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Postman/TodoApi.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/Postman/TodoApi.postman_collection.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,50 +22,38 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
-      <entry key="_/Users/hk/Library/CloudStorage/OneDrive-ErhvervsakademiSydvest/Dokumenter/Undervisning/Software Quality/Examples/ApiTestsWithWebApplicationFactory" value="2W1WXyShqlEWuI8Yu4TF1FVverq" />
+      <entry key="_/Users/hk/Library/CloudStorage/OneDrive-ErhvervsakademiSydvest/Dokumenter/Undervisning/Software Quality/Examples/ApiTestsWithWebApplicationFactory" value="38svMCe6PyZVVuvl7UHB8QlhdFZ" />
     </persistenceIdMap>
-  </component>
-  <component name="DpaMonitoringSettings">
-    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TodoApi/Controllers/TodoController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TodoApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2W1WXyShqlEWuI8Yu4TF1FVverq" />
+  <component name="ProjectId" id="38svMCe6PyZVVuvl7UHB8QlhdFZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.TodoApi: http.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "WebServerToolWindowFactoryState": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "rider.unittesting.toolwindow.stripe.button.shown": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.TodoApi: http">
+  <component name="RunManager" selected=".NET Project.ApiTestsWithWebApplicationFactory">
     <configuration name="ApiTestsWithWebApplicationFactory" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -89,30 +75,9 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="TodoClient" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TodoClient/TodoClient.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
     <configuration name="TodoApi: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TodoApi/TodoApi.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -128,7 +93,7 @@
     </configuration>
     <configuration name="TodoApi: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TodoApi/TodoApi.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -143,36 +108,16 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="69424b55-437a-4093-81d8-0bce204e2f56" name="Changes" comment="" />
-      <created>1695900611286</created>
+      <changelist id="85735420-7108-413f-ad2a-ffd2fb922349" name="Changes" comment="" />
+      <created>1769601042722</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1695900611286</updated>
-      <workItem from="1695900612725" duration="2228000" />
-      <workItem from="1696223159114" duration="1757000" />
-      <workItem from="1708584963945" duration="3367000" />
-      <workItem from="1726568070091" duration="8397000" />
-      <workItem from="1741944380232" duration="1563000" />
-      <workItem from="1757580741267" duration="204000" />
-      <workItem from="1757582153744" duration="1242000" />
-      <workItem from="1757584172248" duration="7773000" />
-      <workItem from="1757615771120" duration="191000" />
-      <workItem from="1759402670000" duration="688000" />
-      <workItem from="1760943933326" duration="436000" />
-      <workItem from="1760944425258" duration="13000" />
-      <workItem from="1760945301276" duration="2861000" />
-      <workItem from="1760950673610" duration="6813000" />
-      <workItem from="1760962510304" duration="563000" />
-      <workItem from="1760963907719" duration="974000" />
-      <workItem from="1761025671807" duration="8846000" />
-      <workItem from="1761290200145" duration="1111000" />
-      <workItem from="1761291342060" duration="406000" />
-      <workItem from="1761291816227" duration="13980000" />
-      <workItem from="1761559768155" duration="2890000" />
-      <workItem from="1769600337457" duration="534000" />
+      <updated>1769601042722</updated>
+      <workItem from="1769601043804" duration="67000" />
+      <workItem from="1773048439743" duration="1119000" />
+      <workItem from="1773650440221" duration="1542000" />
     </task>
     <servers />
   </component>
