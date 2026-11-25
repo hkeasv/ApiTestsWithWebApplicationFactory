@@ -1,8 +1,5 @@
 ﻿using System.Net;
 using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using TodoApi.Data;
 
 namespace ApiTestsWithWebApplicationFactory;
 
@@ -15,11 +12,12 @@ namespace ApiTestsWithWebApplicationFactory;
 public class TestsWithoutTestDatabase : IClassFixture<WebApplicationFactory<Program>>
 {
     private readonly WebApplicationFactory<Program> _factory;
+
     public TestsWithoutTestDatabase(WebApplicationFactory<Program> factory)
     {
         _factory = factory;
     }
-
+    
     [Fact]
     public async Task Get_All_EndpointReturnsSuccess()
     {
@@ -34,13 +32,13 @@ public class TestsWithoutTestDatabase : IClassFixture<WebApplicationFactory<Prog
     }
 
     [Fact]
-    public async Task Get_Item1_EndpointReturnsNotFound()
+    public async Task Get_Item5_EndpointReturnsNotFound()
     {
         // Arrange
         HttpClient client = _factory.CreateClient();
 
         // Act
-        var response = await client.GetAsync("/todo/1");
+        var response = await client.GetAsync("/todo/5");
 
         // Assert
         Assert.Equal(HttpStatusCode.NotFound,response.StatusCode);

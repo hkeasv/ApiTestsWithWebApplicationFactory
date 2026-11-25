@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 // SqLite database:
-builder.Services.AddDbContext<TodoContext>(opt => opt.UseSqlite("Data Source=TodoDatabase.db"));
+builder.Services.AddDbContext<TodoContext>(opt => 
+    opt.UseSqlite("Data Source=TodoDatabase.db"));
 
 // Register TodoItem repository for dependency injection.
 builder.Services.AddScoped<IRepository<TodoItem>, TodoItemRepository>();

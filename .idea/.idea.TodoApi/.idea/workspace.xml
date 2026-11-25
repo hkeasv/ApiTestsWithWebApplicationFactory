@@ -7,13 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85735420-7108-413f-ad2a-ffd2fb922349" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.ask.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TodoApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Postman/TodoApi.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/Postman/TodoApi.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiTestsWithWebApplicationFactory/TestsWithoutTestDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ApiTestsWithWebApplicationFactory/TestsWithoutTestDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/TodoDb.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/TodoDb.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/TodoDb.db-wal" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,37 +22,120 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_/Users/hk/Library/CloudStorage/OneDrive-ErhvervsakademiSydvest/Dokumenter/Undervisning/Software Quality/Examples/ApiTestsWithWebApplicationFactory" value="38svMCe6PyZVVuvl7UHB8QlhdFZ" />
+      <entry key="_/Users/hk/Library/CloudStorage/OneDrive-SyddanskErhvervsakademi/Dokumenter/Undervisning/Software Quality/Examples/ApiTestsWithWebApplicationFactory" value="3MYMlYXaJl1bcIFUVlOdWgEGwK5" />
     </persistenceIdMap>
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.430126960443086E-169" />
+      <entry key="S5" value="4.558177315989189E-68" />
+      <entry key="S10" value="2.1845981432728585E-34" />
+      <entry key="S30" value="8.215275954820465E-12" />
+      <entry key="S60" value="4.484702723617334E-6" />
+      <entry key="M2" value="0.0035648153344822794" />
+      <entry key="M5" value="0.21460826888822468" />
+      <entry key="M10" value="1.1481234163851803" />
+      <entry key="M15" value="2.362315284631558" />
+      <entry key="M30" value="5.451513126187937" />
+      <entry key="H1" value="8.63174180806064" />
+      <entry key="H2" value="10.962286878071186" />
+      <entry key="H4" value="12.380097107527439" />
+      <entry key="D1" value="13.714756305828997" />
+      <entry key="W1" value="13.958860065641472" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000002403" />
+      <entry key="S10" value="1.0000004902088955" />
+      <entry key="S30" value="1.007884855330732" />
+      <entry key="S60" value="1.0887981946553835" />
+      <entry key="M2" value="1.2992169396422697" />
+      <entry key="M5" value="1.6943941734579955" />
+      <entry key="M10" value="2.1460480062847216" />
+      <entry key="M15" value="2.4747886050384444" />
+      <entry key="M30" value="3.025586468807488" />
+      <entry key="H1" value="3.4410529422296396" />
+      <entry key="H2" value="3.6994586146347213" />
+      <entry key="H4" value="3.8440073372946206" />
+      <entry key="D1" value="3.9731644974732716" />
+      <entry key="W1" value="3.9961452932976678" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.0724047526942643E-16" />
+      <entry key="MS500" value="6.398405292277163E-4" />
+      <entry key="S2" value="0.15904423682455932" />
+      <entry key="S5" value="0.4792997192465413" />
+      <entry key="S10" value="0.6923149847916072" />
+      <entry key="S30" value="0.8907724738793282" />
+      <entry key="S60" value="1.0188533396579997" />
+      <entry key="M2" value="1.2542246374186634" />
+      <entry key="M5" value="1.8761139886135179" />
+      <entry key="M10" value="3.2667266457170667" />
+      <entry key="M15" value="4.813245966691981" />
+      <entry key="M30" value="8.46060191972934" />
+      <entry key="H1" value="12.06286703336155" />
+      <entry key="H2" value="14.656267849499454" />
+      <entry key="H4" value="16.22122314542143" />
+      <entry key="D1" value="17.68741948273336" />
+      <entry key="W1" value="17.954933206818374" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="38svMCe6PyZVVuvl7UHB8QlhdFZ" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="ensembleEnabled" value="true" />
+        <option name="ensembleTierId" value="balance" />
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="ensemble" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "rider.unittesting.toolwindow.stripe.button.shown": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.TodoApi: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rider.unittesting.toolwindow.stripe.button.shown&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Project.ApiTestsWithWebApplicationFactory">
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.TodoApi: http">
     <configuration name="ApiTestsWithWebApplicationFactory" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
